@@ -1,0 +1,8 @@
+Prerequisites:
+MongoDB (tested with 1.4.3)
+PyMongo
+Pylons (tested with 1.0)
+
+The contents of pylons will not work standalone. They have to be placed in an existing pylons installation in order to serve content.
+
+The scripts in tools/buildtest will preload the MongoDB with test data in the expected schema.
